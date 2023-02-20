@@ -31,7 +31,8 @@ Workflow for the client credentials grant type
             #fetch deviations from user
             fetched_deviations = da.get_gallery_folder(
                 username=username,
-                offset=offset
+                offset=offset,
+                mature_content=False
             )
 
             #add fetched deviations to stack
