@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 
 import unittest
-import deviantart
+import new-deviantart
 from .helpers import mock_response, optional
 from .api_credentials import CLIENT_ID, CLIENT_SECRET
 

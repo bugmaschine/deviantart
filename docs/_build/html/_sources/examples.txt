@@ -9,7 +9,7 @@ Workflow for the client credentials grant type
     :linenos:
 
     #import library
-    import deviantart
+    import new-deviantart
 
     #create new client
     da = deviantart.Api("YOUR_CLIENT_ID", "YOUR_CLIENT_SECRET");
@@ -62,7 +62,7 @@ Workflow for the authorzation code grant type
     :linenos:
 
     #import library
-    import deviantart
+    import new-deviantart
 
     #create new client with the authorization code grant type
     da = deviantart.Api(

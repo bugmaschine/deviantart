@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 
 import unittest
-import deviantart
-from deviantart.api import DeviantartError
+import new-deviantart
+from deviantart.api import new-deviantartError
 from .helpers import mock_response
 
 

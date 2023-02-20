@@ -14,8 +14,8 @@ Basic usage
 .. code-block:: python
    :linenos:
 
-   #import deviantart library
-   import deviantart
+   #import new-deviantart library
+   import new-deviantart
 
    #create an API object with your client credentials
    da = deviantart.Api("YOUR_CLIENT_ID", "YOUR_CLIENT_SECRET")

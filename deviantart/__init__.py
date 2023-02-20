@@ -1,5 +1,5 @@
 """
-    deviantart
+    new-deviantart
     ^^^^^^^^^^
     
     A Python wrapper for the DeviantArt API

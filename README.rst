@@ -1,7 +1,7 @@
-deviantart 0.1.5
+new-deviantart 0.1.5
 ======================================
 
-'deviantart' is a python package that provides easy access to the deviantart API.
+'new-deviantart' is a python package that provides easy access to the deviantart API.
 
 
 Installation
@@ -9,7 +9,7 @@ Installation
 
 Installation using ``pip``::
 
-    pip install deviantart
+    pip install new-deviantart
 
 Documentation
 -------------
@@ -21,11 +21,11 @@ Basic usage
 
 .. code:: python
 
-   #import deviantart library
-   import deviantart
+   #import new-deviantart library
+   import new-deviantart
 
    #create an API object with your client credentials
-   da = deviantart.Api("YOUR_CLIENT_ID", "YOUR_CLIENT_SECRET")
+   da = new-deviantart.Api("YOUR_CLIENT_ID", "YOUR_CLIENT_SECRET")
 
    #fetch daily deviations
    dailydeviations = da.browse_dailydeviations()
