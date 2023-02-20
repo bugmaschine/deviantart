@@ -1,4 +1,4 @@
-deviantart package
+new-deviantart package
 ==================
 
 Submodules

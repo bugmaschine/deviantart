@@ -4,4 +4,4 @@ Reference
 .. toctree::
    :maxdepth: 4
 
-   deviantart
+   new-deviantart
