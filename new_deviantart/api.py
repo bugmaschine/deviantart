@@ -697,7 +697,8 @@ class Api(object):
                     "calculate_size":calculate_size,
                     "ext_preload":ext_preload,
                     "offset":offset,
-                    "limit":limit
+                    "limit":limit,
+                    "mature_content":mature_content
                 })
 
         folders = []
@@ -791,7 +792,8 @@ class Api(object):
                     "username":username,
                     "mode":mode,
                     "offset":offset,
-                    "limit":limit
+                    "limit":limit,
+                    "mature_content":mature_content
                 })
 
         deviations = []
