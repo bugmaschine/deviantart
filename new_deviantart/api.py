@@ -1782,5 +1782,3 @@ class Api(object):
 
         if 'error' in response:
             raise DeviantartError(response['error_description'])
-    if "id" not in data:
-        data = {"id": "0"}
