@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="new_deviantart",
-    version="0.2.1",
+    version="0.2.2",
     description="A Python wrapper for the DeviantArt API",
     url="https://github.com/bugmaschine/deviantart",
     author="Kevin Eichhorn",
