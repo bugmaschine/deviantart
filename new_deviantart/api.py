@@ -730,7 +730,7 @@ class Api(object):
 
 
 
-    def get_gallery_all(self, username='', offset=0, limit=10):
+    def get_gallery_all(self, username='', offset=0, limit=10, mature_content=False):
         """
         Get all of a user's deviations
 
@@ -743,7 +743,8 @@ class Api(object):
 
         response = self._req('/gallery/all', {'username': username,
                                                'offset': offset,
-                                               'limit': limit})
+                                               'limit': limit,
+                                               'mature_content': mature_content})
 
         deviations = []
 
@@ -1131,7 +1132,8 @@ class Api(object):
         for item in response['results']:
             s = Status()
             s.from_dict(item)
-            statuses.append(s)
+               if "id" not in data:
+        data = {"id": "0"} statuses.append(s)
 
         return {
             "results" : statuses,
@@ -1782,3 +1784,5 @@ class Api(object):
 
         if 'error' in response:
             raise DeviantartError(response['error_description'])
+    if "id" not in data:
+        data = {"id": "0"}
