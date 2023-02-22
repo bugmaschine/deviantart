@@ -1115,7 +1115,6 @@ class Api(object):
     def get_statuses(self, username, offset=0, limit=10):
 
         """Fetch status updates of a user
-
         :param username: The username you want to get a list of status updates from
         :param offset: the pagination offset
         :param limit: the pagination limit
@@ -1132,8 +1131,7 @@ class Api(object):
         for item in response['results']:
             s = Status()
             s.from_dict(item)
-               if "id" not in data:
-        data = {"id": "0"} statuses.append(s)
+            statuses.append(s)
 
         return {
             "results" : statuses,
